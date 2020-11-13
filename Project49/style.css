@@ -1,0 +1,71 @@
+h1{
+    color: brown;
+}
+h2{
+    color: blue;
+}
+ul{
+    color: darkred;
+}
+ol{
+    color: darkgreen;
+}
+.header{
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu{
+    background-color: rgb(94, 255, 0);
+    display: flex;
+    justify-content: space-around;
+}
+.panda{
+    background-color: rgb(25, 161, 240);
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+}
+.pigeon{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+a.link{
+    color: blue;
+}
+a.visited{
+    color: #ffffff;
+}
+.panda:hover{
+    transform: scale(1.1);
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.header:hover{
+    transform: scale(1.1);
+}
+.pigeon:hover{
+    transform: scale(1.1);
+}
+.title:hover{
+    transform: scale(1.1);
+}
+.title{
+    position: absolute;
+}
+.text{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+   position: relative;
+   text-decoration: none;
+}
+.text:hover{
+transform: scale(1.1);
+}
